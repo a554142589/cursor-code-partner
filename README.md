@@ -56,21 +56,21 @@ Invoke-WebRequest -Uri https://raw.githubusercontent.com/a554142589/cursor-code-
 macOS / Linux：
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/<YOUR_GITHUB_USER>/<YOUR_REPO>/main/scripts/install.sh | \
-  bash -s -- --base-url https://raw.githubusercontent.com/<YOUR_GITHUB_USER>/<YOUR_REPO>/main --target . --mode full
+curl -fsSL https://raw.githubusercontent.com/a554142589/cursor-code-partner/main/scripts/install.sh | \
+  bash -s -- --base-url https://raw.githubusercontent.com/a554142589/cursor-code-partner/main --target . --mode full
 ```
 
 Windows PowerShell：
 
 ```powershell
-Invoke-WebRequest -Uri https://raw.githubusercontent.com/<YOUR_GITHUB_USER>/<YOUR_REPO>/main/scripts/install.ps1 -OutFile install-cursor-code-partner.ps1
-powershell -ExecutionPolicy Bypass -File .\install-cursor-code-partner.ps1 -BaseUrl https://raw.githubusercontent.com/<YOUR_GITHUB_USER>/<YOUR_REPO>/main -Target . -Mode full
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/a554142589/cursor-code-partner/main/scripts/install.ps1 -OutFile install-cursor-code-partner.ps1
+powershell -ExecutionPolicy Bypass -File .\install-cursor-code-partner.ps1 -BaseUrl https://raw.githubusercontent.com/a554142589/cursor-code-partner/main -Target . -Mode full
 ```
 
 ### 方案 C：clone 后本地安装
 
 ```bash
-git clone https://github.com/<YOUR_GITHUB_USER>/<YOUR_REPO>.git
+git clone https://github.com/a554142589/cursor-code-partner.git
 bash <YOUR_REPO>/scripts/install.sh --target /path/to/project --mode full
 ```
 
