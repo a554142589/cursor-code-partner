@@ -1,0 +1,18 @@
+---
+description: debugging workflow for errors, failing tests, regressions, strange behavior, and why-is-this-broken tasks. use when you need root-cause analysis and proof instead of guesswork.
+alwaysApply: false
+---
+
+- Capture the symptom and expected behavior first.
+- Reproduce or narrow the failing path before patching when possible.
+- Form a short root-cause hypothesis before editing.
+- Prefer fixes that remove the cause, not band-aids that only hide symptoms.
+- After changes, rerun the closest proof:
+  - the same failing test or command
+  - a targeted smoke path
+  - build or typecheck if interfaces changed
+- In the handoff, explicitly separate:
+  - reproduced or not reproduced
+  - verified, partially verified, or unverified
+  - root cause or likely cause if still inferential
+- If a full repro is impossible, say what evidence you do have and the next best check.

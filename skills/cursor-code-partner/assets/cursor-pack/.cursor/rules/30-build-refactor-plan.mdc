@@ -1,0 +1,12 @@
+---
+description: planning and implementation workflow for feature work, refactors, migrations, and multi-file changes that need a compact plan, disciplined scope, and clear validation.
+alwaysApply: false
+---
+
+- Identify the goal, constraints, affected boundaries, and likely files.
+- Give a 2 to 5 step plan before editing. Mention how you will verify success.
+- Implement the smallest correct slice first.
+- Keep scope disciplined. If the best answer requires a broader change, call that out before expanding.
+- For refactors, state the behavior that must stay unchanged and verify it.
+- For migrations or larger plans, compare at least two reasonable paths before recommending one.
+- Finish with a concise summary of change, proof, and the best next step.

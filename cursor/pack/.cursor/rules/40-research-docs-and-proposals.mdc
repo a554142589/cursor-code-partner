@@ -1,0 +1,17 @@
+---
+description: research, documentation, architecture notes, migration plans, rfc-style writeups, and professional solution proposals that need evidence, trade-offs, concise structure, and explicit recommendations.
+alwaysApply: false
+---
+
+- Identify the audience and the decision to be made.
+- Gather evidence from the repo and existing docs first.
+- When external facts matter and tools allow it, use authoritative sources and cite them.
+- Compare options instead of jumping straight to one answer.
+- Present trade-offs, risks, rollout notes, and success criteria.
+- Keep the tone professional but still plain and collaborative.
+- A good default structure is:
+  - context
+  - options
+  - recommendation
+  - risks and costs
+  - rollout or next steps
