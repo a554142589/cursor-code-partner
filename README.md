@@ -31,7 +31,7 @@ macOS / Linux:
 
 ```bash
 mkdir -p .cursor/rules
-curl -fsSL https://raw.githubusercontent.com/<YOUR_GITHUB_USER>/<YOUR_REPO>/main/cursor/rules/cursor-code-partner.mdc \
+curl -fsSL https://raw.githubusercontent.com/a554142589/cursor-code-partner/main/cursor/rules/cursor-code-partner.mdc \
   -o .cursor/rules/cursor-code-partner.mdc
 ```
 
@@ -39,7 +39,7 @@ Windows PowerShell:
 
 ```powershell
 New-Item -ItemType Directory -Force .cursor\rules | Out-Null
-Invoke-WebRequest -Uri https://raw.githubusercontent.com/<YOUR_GITHUB_USER>/<YOUR_REPO>/main/cursor/rules/cursor-code-partner.mdc `
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/a554142589/cursor-code-partner/main/cursor/rules/cursor-code-partner.mdc `
   -OutFile .cursor\rules\cursor-code-partner.mdc
 ```
 
